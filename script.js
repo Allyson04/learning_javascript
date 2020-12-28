@@ -1,11 +1,15 @@
-var idade = prompt("Insira aqui sua idade:").toString();
+var idade = prompt("Insira aqui sua idade:");
 
-if (0 <= idade && idade < 15) {
-    document.write("Criança");
+if (idade < 0) {
+    alert("Houve um problema determinando sua idade, verifique-a e tente de novo")
+} else if (0 <= idade && idade < 15) {
+    result = "Criança"
 } else if (15 <= idade && idade < 30) {
-    document.write("Jovem");
+    result = "Jovem"
 } else if (30 <= idade && idade < 60) {
-    document.write("Adulto");
+    result = "Adulto"
 } else if (60 <= idade) {
-    document.write("Idoso");
+    result = "Idoso"
 }
+
+document.write(result)
