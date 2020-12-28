@@ -2,3 +2,13 @@
 // or => || => true if any expression is true
 // not => ! => true invert the result of comparison
 
+var subject1 = 5;
+var subject2 = 8;
+var subject3 = 10;
+var attendance = 10;
+var averageScore = 7;
+var absence = prompt("Number of days when you was late or absent:")
+
+if (subject1/3 + subject2/3 + subject3/3 >= averageScore && attendance - absence >= 8) {
+    document.write("Congratulations! You passed the exams and got the necessary frequency!")
+} 
