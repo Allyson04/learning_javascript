@@ -25,3 +25,5 @@ if (BMI < 16) {
 } else if (BMI >= 40) {
     classification = "Obese Class III"
 }
+
+document.write(name + " has body mass index equal as " + BMI + ", being classified as:" + "<br />" + classification)
