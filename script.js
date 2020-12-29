@@ -36,17 +36,23 @@ var name = "Olá "
 
 // You can also use a short operation, as showed below.
 
-var num3 = 4;
+// var num3 = 4;
 
-num3 += 2
-document.write(num3 + "<br />")
+// num3 += 2
+// document.write(num3 + "<br />")
 
-num3 -= 2
-document.write(num3 + "<br />")
+// num3 -= 2
+// document.write(num3 + "<br />")
 
-num3 *= 5
-document.write(num3 + "<br />")
+// num3 *= 5
+// document.write(num3 + "<br />")
 
-num3 /= 2
-document.write(num3 + "<br />")
+// num3 /= 2
+// document.write(num3 + "<br />")
 
+// You can also use it for strings!
+
+var name = "Olá "
+name += prompt("Digite seu Nome:")
+
+alert(name)
