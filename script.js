@@ -5,3 +5,4 @@ var BMI = null;
 
 height /= 100
 
+BMI = weight / (height*height)
