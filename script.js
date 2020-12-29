@@ -10,24 +10,43 @@
 
 var num1 = 5;
 var num2 = 3;
+var name = "Olá "
 
-document.write(
-    "Testing some expressions with " + num1 + " and " + num2 + "<br />" +
-    num1 + num2 + 
-    "<br />" + "<br />" +
+// document.write(
+//     "Testing some expressions with " + num1 + " and " + num2 + "<br />" +
+//     num1 + num2 + 
+//     "<br />" + "<br />" +
 
-    // In this example we are concatenating strings and numbers, instead of concatenating strings AND adding up numbers
-    // it happens because if there's one string in the expression, javascript understand its variables as strings, so it casts all numbers into strings
-    // To prevent this to happen, use parenthesis
+//     // In this example we are concatenating strings and numbers, instead of concatenating strings AND adding up numbers
+//     // it happens because if there's one string in the expression, javascript understand its variables as strings, so it casts all numbers into strings
+//     // To prevent this to happen, use parenthesis
 
     
 
-    // "Here we can see num1 with increment before" + "<br />" + 
-    // (++num1) + "<br />" 
+//     // "Here we can see num1 with increment before" + "<br />" + 
+//     // (++num1) + "<br />" 
 
-    "Here we can see num1 with increment after" + "<br />" + 
-    (num1++) + "<br />" +
-    "but if we show its value again, it shows with increment" + "<br />" +
-    (num1)
+//     "Here we can see num1 with increment after" + "<br />" + 
+//     (num1++) + "<br />" +
+//     "but if we show its value again, it shows with increment" + "<br />" +
+//     (num1)
     
-)
+
+// )
+
+// You can also use a short operation, as showed below.
+
+var num3 = 4;
+
+num3 += 2
+document.write(num3 + "<br />")
+
+num3 -= 2
+document.write(num3 + "<br />")
+
+num3 *= 5
+document.write(num3 + "<br />")
+
+num3 /= 2
+document.write(num3 + "<br />")
+
