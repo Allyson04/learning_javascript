@@ -5,8 +5,8 @@
 // * => Product
 // "/" => Division
 // % => "Module" uses the rest in a Division
-// ++ => Incremment of 1 (if the symbol comes before the number, it display instantly the new value, but if used after, it refresh the value only after all the expressions)
-// -- => Decrement of 1 (see incremment)
+// ++ => increment of 1 (if the symbol comes before the number, it display instantly the new value, but if used after, it refresh the value only after all the expressions)
+// -- => Decrement of 1 (see increment)
 
 var num1 = 5;
 var num2 = 3;
@@ -27,7 +27,7 @@ document.write(
 
     "Here we can see num1 with increment after" + "<br />" + 
     (num1++) + "<br />" +
-    "but if we show its value again, it shows with incremment" + "<br />" +
+    "but if we show its value again, it shows with increment" + "<br />" +
     (num1)
     
 )
