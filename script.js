@@ -13,9 +13,10 @@ function calculateArea(length, width) {
     return area 
 }
 
-var area = calculate(length, width);
+
 var length = prompt("Type length:");
 var width = 5;
+var area = calculateArea(length, width);
 
 
 document.write("O terreno de "  + width + " de comprimento e " + length + " de largura possui " + area + " metros quadrados.")
