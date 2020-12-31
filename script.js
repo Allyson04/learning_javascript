@@ -3,9 +3,9 @@
 // not => ! => true invert the result of comparison
 
 var subject1 = prompt("Grade for subject1:");
-var subject2 = 8;
-var subject3 = 10;
-var attendance = 10;
+var subject2 = prompt("Grade for subject2:");
+var subject3 = prompt("Grade for subject3:");
+var attendance = prompt("Total Number of Lessons in the year:");
 var averageScore = 7;
 var absence = prompt("Number of days when you was late or absent:");
 
