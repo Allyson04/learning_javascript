@@ -18,7 +18,7 @@ if (attendance + 1 <= attendance - absence || attendance - absence <= -1 || subj
 } else if (subject1/3 + subject2/3 + subject3/3 < averageScore) {
     document.write("Sorry, but your grades were not enough for your approval, study more so your grades became better. Remember to always take a break and drink water!")
 } else {
-    document.write("hey, what are you doing here?? get away from here")
+    document.write("hey, what are you doing?? get away from here")
 }
 
 // var result = ((subject1 + subject2 + subject3)/3 >= averageScore && attendance - absence >= 8) ? 'Aprovado' : 'Reprovado'
