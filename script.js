@@ -15,7 +15,7 @@ if (attendance + 1 <= attendance - absence || attendance - absence <= -1 || subj
     document.write("Congratulations! You passed the exams and got the necessary frequency!")
 } else if (attendance - absence < 8) {
     document.write("Sorry, but you were absent in too much classes! Find your teacher to discuss this problem with him.")
-} else if (subject1/3 + subject2/3 + subject3/3 < averageScore) {
+} else if ((subject1 + subject2 + subject3)/3 < averageScore) {
     document.write("Sorry, but your grades were not enough for your approval, study more so your grades became better. Remember to always take a break and drink water!")
 } else {
     document.write("hey, what are you doing?? get away from here")
