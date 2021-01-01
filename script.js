@@ -46,7 +46,7 @@ var callbackPersonID = function(name, gender, birthday, email) {
 }
 
 var callbackError = function(title, desc) {
-    alert("<h1>" + title + "<h1/>" + "<br />" + "<p>" + desc + "</p>")
+    alert(title + desc)
 }
 
 showGradeScores(person, callbackPersonID, callbackError)
