@@ -22,3 +22,35 @@ var searchOperation = function(operation) {
 }
 
 searchOperation(operation)
+
+function convertLengths(numHave, unitHave, unitWant) {
+    var result = 0
+
+    if (unitHave == "meter" && unitWant == "inch") {
+        result = numHave/0.0254
+    }
+    
+    if (unitHave == "meter" && unitWant == "feet") {
+        result = numHave/0.3048
+    }
+
+    if (unitHave == "inch" && unitWant == "meter") {
+        result = numHave * 0.0254
+    }
+
+    if (unitHave == "inch" && unitWant == "feet") {
+        result = numHave/12
+    }
+
+    if (unitHave == "feet" && unitWant == "inch") {
+        result = numHave * 12
+    }
+
+    if (unitHave == "feet" && unitWant == "meter") {
+        result = numHave * 0.3048
+    }
+
+    document.write("The result is " + result)
+}
+
+
