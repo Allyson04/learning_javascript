@@ -24,3 +24,20 @@ var name = ' Jorge Sant Ana '
 
 //removes blank spaces in string
 // document.write('-' + name.trim() + '-')
+
+var num1 = 2.5
+
+//Rounding up
+// num1 = Math.ceil(num1)
+
+// Rounding down
+// num1 = Math.floor(num1)
+
+// Rounding according to math
+num1 = Math.round(num1)
+
+//create a random number
+num1 = Math.random()
+
+
+document.write(num1)
