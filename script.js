@@ -7,25 +7,24 @@ var searchOperation = function(operation) {
     var numHave = prompt("what is the value you have?")
     var unitHave = prompt("What is the unit you have?")
     var unitWant = prompt("What is the unit you want?")
+    var result = 0
     
     if (operation == "length converter") {
-        convertLengths(numHave, unitHave, unitWant)
+        convertLengths(numHave, unitHave, unitWant, result)
     }
 
     if (operation == "weight converter") {
-        convertWeight(numHave, unitHave, unitWant)
+        convertWeight(numHave, unitHave, unitWant, result)
     }
 
     if (operation == "temperature converter") {
-        convertTemperature(numHave, unitHave, unitWant)
+        convertTemperature(numHave, unitHave, unitWant, result)
     }
 }
 
 searchOperation(operation)
 
-function convertLengths(numHave, unitHave, unitWant) {
-    var result = 0
-
+function convertLengths(numHave, unitHave, unitWant, result) {
     if (unitHave == "meter" && unitWant == "inch") {
         result = numHave/0.0254
     }
@@ -54,7 +53,7 @@ function convertLengths(numHave, unitHave, unitWant) {
 }
 
 
-function convertWeight(numHave, unitHave, unitWant) {
+function convertWeight(numHave, unitHave, unitWant, result) {
     if (unitHave == "grams" && unitWant == "ounces") {
         result = numHave/28.34952
     }
