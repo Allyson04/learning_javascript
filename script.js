@@ -8,6 +8,11 @@ var searchOperation = function(operation) {
     var unitHave = prompt("What is the unit you have?")
     var unitWant = prompt("What is the unit you want?")
     var result = 0
+
+    //things to better this code
+    // convertLengths is different than others functions, he is in plural, instead of singular noun
+    // try to display every unit we have
+    
     
     if (operation == "length converter") {
         convertLengths(numHave, unitHave, unitWant, result)
@@ -80,3 +85,4 @@ function convertWeight(numHave, unitHave, unitWant, result) {
 
     document.write("The result is: " + result)
 }
+
