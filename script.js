@@ -12,7 +12,7 @@ var searchOperation = function(operation) {
     //things to better this code
     // convertLengths is different than others functions, he is in plural, instead of singular noun
     // try to display every unit we have
-    
+
     
     if (operation == "length converter") {
         convertLengths(numHave, unitHave, unitWant, result)
@@ -86,3 +86,30 @@ function convertWeight(numHave, unitHave, unitWant, result) {
     document.write("The result is: " + result)
 }
 
+function convertTemperature(numHave, unitHave, unitWant, result) {
+    if (unitHave == "celsius" && unitWant == "fahrenheit") {
+        result = numHave * 9/5 + 32
+    }
+
+    if (unitHave == "celsius" && unitWant == "kelvin") {
+        result = numHave + 273.15
+    }
+
+    if (unitHave == "fahrenheit" && unitWant == "celsius") {
+        result = (numHave - 32) * (5/9)
+    }
+
+    if (unitHave == "fahrenheit" && unitWant == "kelvin") {
+        result = (numHave + 459.67) * (5/9)
+    }
+
+    if (unitHave == "kelvin" && unitWant == "celsius") {
+        result = numHave - 273.15
+    }
+
+    if (unitHave == "kelvin" && unitWant == "fahrenheit") {
+        result = numHave * 9/5 - 459.67 
+    }
+
+    document.write("The result is: " + result)
+}
