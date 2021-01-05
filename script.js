@@ -54,3 +54,30 @@ function convertLengths(numHave, unitHave, unitWant) {
 }
 
 
+function convertWeight(numHave, unitHave, unitWant) {
+    if (unitHave == "grams" && unitWant == "ounces") {
+        result = numHave/28.34952
+    }
+
+    if (unitHave == "grams" && unitWant == "pounds") {
+        result = numHave/453.59237
+    }
+
+    if (unitHave == "ounces" && unitWant == "grams") {
+        result = numHave * 28.34952
+    }
+
+    if (unitHave == "ounces" && unitWant == "pounds") {
+        result = numHave/16
+    }
+
+    if (unitHave == "pounds" && unitWant == "grams") {
+        result = numHave * 453.59237
+    }
+
+    if (unitHave == "pounds" && unitWant == "ounces") {
+        result = numHave * 16
+    }
+
+    document.write("The result is: " + result)
+}
