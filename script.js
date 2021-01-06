@@ -5,8 +5,8 @@ var operation = prompt("First of all, what do you need? A length converter, a we
 var searchOperation = function(operation) {
     alert("Excellent! So you want a " + operation + ", let me prepare it")
     var numHave = prompt("what is the value you have?").toLowerCase()
-    var unitHave = prompt("What is the unit you have?").toLowerCase()
-    var unitWant = prompt("What is the unit you want?").toLowerCase()
+    var unitHave = prompt("What is the unit you have? \r\n The units we have are: Meter, Inch, Feet, Kilogram, Ounce, Pound, Celsius, Kelvin and Fahrenheit").toLowerCase()
+    var unitWant = prompt("What is the unit you want? \r\n The units we have are: Meter, Inch, Feet, Kilogram, Ounce, Pound, Celsius, Kelvin and Fahrenheit").toLowerCase()
     var result = 0
 
     //things to better this code
