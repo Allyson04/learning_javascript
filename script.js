@@ -8,11 +8,6 @@ var searchOperation = function(operation) {
     var unitHave = prompt("What is the unit you have? \r\n The units we have are: Meter, Inch, Feet, Kilogram, Ounce, Pound, Celsius, Kelvin and Fahrenheit").toLowerCase()
     var unitWant = prompt("What is the unit you want? \r\n The units we have are: Meter, Inch, Feet, Kilogram, Ounce, Pound, Celsius, Kelvin and Fahrenheit").toLowerCase()
     var result = 0
-
-    //things to better this code
-    // convertLength is different than others functions, he is in plural, instead of singular noun
-    // try to display every unit we have
-
     
     if (operation == "length converter") {
         convertLength(numHave, unitHave, unitWant, result)
