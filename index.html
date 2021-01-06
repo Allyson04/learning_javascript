@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
-    <style>
-
-        div {
-        height: 150px;
-        width: 150px;
-        background: #ccc;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>events</title>
 </head>
 <body>
-    
-    <div onclick="actionClick()" ondblclick="actionDblClick()"></div>
-
+    <div onmouseout="MouseOut()"> If you try to get out of this div, then an alert will pop-up</div>
+    <div onclick="MouseClick()"> This Div is for clicking</div>
+    <div ondblclick="MouseDblClick()">This one is for double clicking</div>
+    <div onmouseover="MouseHover()">And lastly, this one here is for hovering</div>
+    <!--<div onmouseout="MouseOut()"></div> -->
+ 
 </body>
 </html>
