@@ -10,12 +10,12 @@ var searchOperation = function(operation) {
     var result = 0
 
     //things to better this code
-    // convertLengths is different than others functions, he is in plural, instead of singular noun
+    // convertLength is different than others functions, he is in plural, instead of singular noun
     // try to display every unit we have
 
     
     if (operation == "length converter") {
-        convertLengths(numHave, unitHave, unitWant, result)
+        convertLength(numHave, unitHave, unitWant, result)
     }
 
     if (operation == "weight converter") {
@@ -29,7 +29,7 @@ var searchOperation = function(operation) {
 
 searchOperation(operation)
 
-function convertLengths(numHave, unitHave, unitWant, result) {
+function convertLength(numHave, unitHave, unitWant, result) {
     if (unitHave == "meter" && unitWant == "inch") {
         result = numHave/0.0254
     }
@@ -59,27 +59,27 @@ function convertLengths(numHave, unitHave, unitWant, result) {
 
 
 function convertWeight(numHave, unitHave, unitWant, result) {
-    if (unitHave == "grams" && unitWant == "ounces") {
+    if (unitHave == "gram" && unitWant == "ounce") {
         result = numHave/28.34952
     }
 
-    if (unitHave == "grams" && unitWant == "pounds") {
+    if (unitHave == "gram" && unitWant == "pound") {
         result = numHave/453.59237
     }
 
-    if (unitHave == "ounces" && unitWant == "grams") {
+    if (unitHave == "ounce" && unitWant == "gram") {
         result = numHave * 28.34952
     }
 
-    if (unitHave == "ounces" && unitWant == "pounds") {
+    if (unitHave == "ounce" && unitWant == "pound") {
         result = numHave/16
     }
 
-    if (unitHave == "pounds" && unitWant == "grams") {
+    if (unitHave == "pound" && unitWant == "gram") {
         result = numHave * 453.59237
     }
 
-    if (unitHave == "pounds" && unitWant == "ounces") {
+    if (unitHave == "pound" && unitWant == "ounce") {
         result = numHave * 16
     }
 
