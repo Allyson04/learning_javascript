@@ -30,13 +30,13 @@ onkeyup // when a key is released
 onkeypress // this one is tricky, it's represent the moment after the key in lowered, but before it release, so a key stays pressed. It only used for keys with a character, so alphabets, numerics and punctuation marks are valid. Ctrl, Del, Caps Lock and similar don't use this event
 
 function keyDown () {
-    alert("message activated")
+    alert("onkeydown was activated.")
 }
 
 function keyPress () {
-    alert("")
+    alert("onkeypress was activated, this only works for keys for character inputs.")
 }
 
 function keyUp () {
-    alert("")
+    alert("onkeyup was activated, first the input is made and then the alert is displayed.")
 }
