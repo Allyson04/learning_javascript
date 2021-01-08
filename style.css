@@ -31,3 +31,13 @@ div[onmouseover] {
     background-color: blue;
     border: 1px solid black;
 }
+
+textarea{
+    border: 3px dashed slateblue;
+    border-radius: 20px 0px 20px 0;
+    -webkit-border-radius: 20px 0px 20px 0;
+    -moz-border-radius: 20px 0px 20px 0;
+    -ms-border-radius: 20px 0px 20px 0;
+    -o-border-radius: 20px 0px 20px 0;
+    padding: 10px;
+}
