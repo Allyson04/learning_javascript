@@ -8,17 +8,8 @@
     <title>Dom Manipulation</title>
 </head>
 <body>
-    <input type="text" placeholder="E-mail" id="user_email" class="input_email" name="E-mail_input">
-    <input type="radio" name="check" id="">
-    <input type="radio" name="check" id="">
-    <input type="radio" name="check" id="">
-
-
-    <script>
-        console.log(document.getElementById('user_email'))
-        //console.log(document.getElementsByTagName('input'))
-        // console.log(document.getElementsByClassName('input_email'))
-        // console.log(document.getElementsByName('check'))
-    </script>
+    <input type="text" placeholder="Characters" id="input_characters" name="input_for_characters" onkeyup="distributionOfCharacters()"> <br />
+    <input type="text" placeholder="Words" id="input_words" name="input_for_words" disabled="disabled"> <br />
+    <input type="text" placeholder="Numbers" id="input_numbers" name="input_for_numbers" disabled="disabled">
 </body>
 </html>
