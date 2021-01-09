@@ -41,3 +41,5 @@ function keyUp () {
     alert("onkeyup was activated, first the input is made and then the alert is displayed.")
 }
 
+onresize //used for resizes of screen
+onscroll //for cases of user scrolling
