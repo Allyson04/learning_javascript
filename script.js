@@ -48,6 +48,18 @@ function keyUp () {
 
 // forms events
 
-onfocus // activated when an input form is focused/clicked
-onblur // after the element is clicked/ activates after unfocus
-onchange // when an element is modified
+// onfocus // activated when an input form is focused/clicked
+// onblur // after the element is clicked/ activates after unfocus
+// onchange // when an element is modified
+
+function focusElement () {
+    alert('The Element Input Text is Focused!!!')
+}
+
+function unfocusElement () {
+    alert('The Element Input is distracted (unfocused)...')
+}
+
+function checkChange () {
+    alert('The element changed!')
+}

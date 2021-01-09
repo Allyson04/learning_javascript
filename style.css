@@ -1,7 +1,11 @@
 body {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 95vw;
+    height: 95vh;
 }
 
 div {
@@ -40,4 +44,20 @@ textarea{
     -ms-border-radius: 20px 0px 20px 0;
     -o-border-radius: 20px 0px 20px 0;
     padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 10px palegreen ridge;
+
+    margin: auto;
+}
+
+form * {
+    margin: 10px;
+}
+
+input[type=checkbox] {
+    width: 10px;
 }
