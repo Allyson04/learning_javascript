@@ -51,3 +51,10 @@ function changeStyle(idVar, colors) {
 
     document.getElementById(idVar).style.borderColor = colors
 }
+
+function changeToDefault(div1, div2, div3, div4) {
+    document.getElementById(div1).style.borderColor = div1
+    document.getElementById(div2).style.borderColor = div2
+    document.getElementById(div3).style.borderColor = div3
+    document.getElementById(div4).style.borderColor = div4
+}

@@ -1,5 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -35,4 +41,14 @@ div:nth-child(3) {
 
 div:nth-child(4) {
     border: 10px double indigo;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
