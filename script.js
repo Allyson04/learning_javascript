@@ -45,3 +45,9 @@ function distributionOfCharacters() {
     //     document.getElementById("input_number").value = document.getElementById("input_number").value + characterInputed
     // }
 }
+
+function changeStyle(idVar, colors) {
+    var colors = prompt("Which color do you want? (Insert only hexadecimal color)");
+
+    document.getElementById(idVar).style.borderColor = colors
+}
