@@ -57,4 +57,17 @@ function changeToDefault(div1, div2, div3, div4) {
     document.getElementById(div2).style.borderColor = div2
     document.getElementById(div3).style.borderColor = div3
     document.getElementById(div4).style.borderColor = div4
+    document.getElementById(div1).className = ""
+    document.getElementById(div2).className = ""
+    document.getElementById(div3).className = ""
+    document.getElementById(div4).className = ""
+
+
+}
+
+function changeClass() {
+    document.getElementById("Burlywood").className = "randomStyle1"
+    document.getElementById("Chartreuse").className = "randomStyle2"
+    document.getElementById("Mediumturquoise").className = "randomStyle3"
+    document.getElementById("Indigo").className = "randomStyle4"
 }
