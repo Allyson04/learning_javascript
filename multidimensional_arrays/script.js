@@ -26,9 +26,11 @@
 
 //Tried new code above, the former way is below
 
+// first of all, we create the principal array
 let existent_things = []
 
-//if we have an important array
+//inform which array we are going to use as principal, then which one we use as division inside it
+//in this case, the "existent_thing" receives an array called "elements" and this last receives some values like "potassium", "carbon", "iron" and others
 existent_things['elements'] = [
     "potassium",
     "carbon",
@@ -39,15 +41,13 @@ existent_things['elements'] = [
     "zinc"
 ]
 
-//and other array
+//and the second array inside "existent_things"
 existent_things["energy"] = [
     "light",
     "sound"
 ]
 
-//can we combine them in other array?
-//Yes! We can do this! This is called multidimensional Array
-
+// lets see how they are shown in document
 document.write(existent_things["elements"][2])
 // console.log(existent_things[Array(2)])
 
