@@ -1,9 +1,9 @@
 //Creating an arrays
-let names_list = array()
+let names_list = Array()
 let schools_list = []
 
 //we can also create non-defined arrays
-let houses_list = array('cabin', "'home", 'wood')
+let houses_list = Array('cabin', "'home", 'wood')
 let backpack_list = ['plastic', "polyester", 'cloth']
 
 //adding values to this new array
