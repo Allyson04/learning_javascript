@@ -62,3 +62,20 @@ names["things_name"] = Array("workbench", "bench", "table", "chair")
 
 console.log(names["peoples_name"][2])
 // console.log(names)
+
+let languages = []
+
+languages["programable"] = []
+languages["programable"][0] = "Java"
+languages["programable"][1] = "Python"
+
+languages["spoken"] = []
+languages["spoken"][0] = "portuguese"
+languages["spoken"][1] = "russian"
+languages["spoken"][2] = "english"
+
+languages["gestural"] = []
+languages["gestural"][0] = "Hands"
+
+
+console.log(languages)
