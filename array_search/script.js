@@ -32,4 +32,12 @@ let addNewFruit = "watermelon/first"
 
 
 let newFruit = addNewFruit.slice(0, addNewFruit.indexOf("/"))
-let fruitSide = addNewFruit.slice(addNewFruit.indexOf("/")+1)
+let fruitSide = addNewFruit.slice(addNewFruit.indexOf("/")+1).toLowerCase()
+
+if (fruitSide === "last") {
+    fruits.unshift(newFruit)
+} else if (fruitSide === "first") {
+    fruits.push(newFruit)
+}
+
+console.log(fruits.indexOf(newFruit))
