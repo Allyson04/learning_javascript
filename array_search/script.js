@@ -40,4 +40,4 @@ if (fruitSide === "last") {
     fruits.push(newFruit)
 }
 
-console.log(fruits.indexOf(newFruit))
+document.write("Your " + newFruit + " was stored in position:" + "<br />" + fruits.indexOf(newFruit))
