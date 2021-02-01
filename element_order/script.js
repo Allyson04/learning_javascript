@@ -1,7 +1,7 @@
 let objects = ["chair", "table", "fork"]
 
 function addElement() {
-    let inputValue = document.getElementById("elementInput").value
+    let inputValue = document.getElementById("elementInput").value.toLowerCase()
     console.log(inputValue)
     
     if (inputValue === "") {
