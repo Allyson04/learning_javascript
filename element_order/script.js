@@ -20,3 +20,8 @@ function addElement() {
         }
     }
 }
+
+function orderElement() {
+    objects.sort()
+    console.log(objects)
+}
