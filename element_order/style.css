@@ -37,6 +37,10 @@ input {
     -o-transition: padding .2s;
 }
 
+input:hover {
+    padding: 17px 32px;
+}
+
 input:focus {
     text-decoration: underline;
     border: 3px solid black;
