@@ -26,6 +26,17 @@ input {
     -o-border-radius: 5px;
 }
 
+input {
+    text-transform: lowercase;
+    font-size: 1em;
+    text-align: center;
+    transition: padding .2s;
+    -webkit-transition: padding .2s;
+    -moz-transition: padding .2s;
+    -ms-transition: padding .2s;
+    -o-transition: padding .2s;
+}
+
 button{
     font-family:'Courier New', Courier, monospace;
     font-size: 1em;
