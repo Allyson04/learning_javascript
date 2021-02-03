@@ -2,7 +2,6 @@ let objects = ["chair", "table", "fork"]
 document.querySelector("#modal-showElements").classList.add("disabled")
 
 function displayArray() {
-    document.querySelector("#modal-showElements").classList.remove("disabled")
     document.querySelector("#modal-showElements").innerHTML = objects
 }
 
