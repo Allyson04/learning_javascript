@@ -1,4 +1,10 @@
 let objects = ["chair", "table", "fork"]
+document.querySelector("#modal-showElements").classList.add("disabled")
+
+function displayArray() {
+    document.querySelector("#modal-showElements").classList.remove("disabled")
+    document.querySelector("#modal-showElements").innerHTML = objects
+}
 
 function addElement() {
     let inputValue = document.getElementById("elementInput").value.toLowerCase()
@@ -19,9 +25,13 @@ function addElement() {
             alert("This Element was already added, try a new one.")
         }
     }
+
+    displayArray()
 }
 
 function orderElement() {
     objects.sort()
     console.log(objects)
+
+    displayArray()
 }
