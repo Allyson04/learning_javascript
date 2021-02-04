@@ -67,3 +67,15 @@ button:hover {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
+div#modal-showElements {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
