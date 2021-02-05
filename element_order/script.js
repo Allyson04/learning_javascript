@@ -28,6 +28,28 @@ function addElement() {
     displayArray()
 }
 
+function removeElement() {
+    let inputValue = document.getElementById("elementInput").value.toLowerCase()
+
+    // console.log(inputValue)
+
+
+    let locateElement = objects.indexOf(inputValue)
+
+    console.log(locateElement)
+
+    if (locateElement == "-1") {
+        alert("Your element don't exist, try again with a valid one.")
+        // alert("the element don't exist")
+
+    } else if (locateElement !== "-1") {
+        // console.log(objects)
+        objects.splice(locateElement, 1)
+        // alert("the element exists")
+        console.log(objects)
+    }
+}
+
 function orderElement() {
     objects.sort()
     console.log(objects)
