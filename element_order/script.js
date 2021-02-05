@@ -5,6 +5,8 @@ function displayArray() {
     document.querySelector("#modal-showElements").innerHTML = objects
 }
 
+displayArray()
+
 function addElement() {
     let inputValue = document.getElementById("elementInput").value.toLowerCase()
     console.log(inputValue)
@@ -48,11 +50,11 @@ function removeElement() {
         // alert("the element exists")
         console.log(objects)
     }
+
+    displayArray()
 }
 
 function orderElement() {
     objects.sort()
-    console.log(objects)
-
     displayArray()
 }
