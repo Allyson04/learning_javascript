@@ -1,60 +1,77 @@
+//creating array
 let objects = ["chair", "table", "fork"]
-document.querySelector("#modal-showElements").classList.add("disabled")
 
+//creating a function to refresh modal with array
 function displayArray() {
     document.querySelector("#modal-showElements").innerHTML = objects
 }
 
+//activating function above
 displayArray()
 
+
+//creating function to add elements to array
 function addElement() {
+
+    //saving value inside input and lowercasing it to prevent errors
     let inputValue = document.getElementById("elementInput").value.toLowerCase()
-    console.log(inputValue)
+
+    //searching the element inside array
+    let elementSearch = objects.indexOf(inputValue)
     
+    //adding if-else in case of the value inside input been empty or already been added to array
     if (inputValue === "") {
+
+        //displaying alert for case of value equals empty
         alert("Please, insert something.")
-    } else {
-        let elementSearch = objects.indexOf(inputValue)
-        console.log(elementSearch)
+    } else if (elementSearch == "-1") {
 
-        if (elementSearch == "-1") {
-            objects.push(inputValue)
-            console.log(objects)
+        //added element in array
+        objects.push(inputValue)
 
-            document.getElementById("elementInput").value = ""
-        } else if (elementSearch !== "-1") {
-            alert("This Element was already added, try a new one.")
-        }
-    }
+        //and erasing the content inside input
+        document.getElementById("elementInput").value = ""
+    } else if (elementSearch !== "-1") {
 
+        // displaying alert for cases of value been already present in array
+        alert("This Element was already added, try a new one.")
+    } 
+
+    // refreshing the display of array
     displayArray()
 }
 
+//adding function to remove elements from array
 function removeElement() {
+    //saving value inside input and lowercasing it to prevent errors
     let inputValue = document.getElementById("elementInput").value.toLowerCase()
 
-    // console.log(inputValue)
-
-
+    //searching the element inside array
     let locateElement = objects.indexOf(inputValue)
 
-    console.log(locateElement)
-
+    //creating if-else to evaluate if the element exists or not in array
     if (locateElement == "-1") {
+
+        //displaying an alert
         alert("Your element don't exist, try again with a valid one.")
-        // alert("the element don't exist")
 
     } else if (locateElement !== "-1") {
-        // console.log(objects)
+
+        //removing the elements from array with splice
+        //the first value means the start of cutting
+        //the second one is how much elements you want to remove 
         objects.splice(locateElement, 1)
-        // alert("the element exists")
-        console.log(objects)
     }
 
+    // refreshing the display of array
     displayArray()
 }
 
+//creating function to order elements alphabetically
 function orderElement() {
+    //sorting elements
     objects.sort()
+
+    // refreshing the display of array
     displayArray()
 }
