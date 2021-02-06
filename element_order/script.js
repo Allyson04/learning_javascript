@@ -61,6 +61,9 @@ function removeElement() {
         //the first value means the start of cutting
         //the second one is how much elements you want to remove 
         objects.splice(locateElement, 1)
+
+        //and erasing the content inside input
+        document.getElementById("elementInput").value = ""
     }
 
     // refreshing the display of array
