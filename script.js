@@ -9,18 +9,35 @@
 //     x += 2
 // }
 
+// x = 1
+
+// console.log("Start!")
+
+// while(x <= 10) {
+//     console.log(x)
+
+//     if(x == 5){
+//         break
+//     }
+
+//     x++
+// }
+
+// console.log("The loop ended")
+
 x = 1
 
 console.log("Start!")
 
 while(x <= 10) {
-    console.log(x)
+    x++
 
     if(x == 5){
-        break
+        //the continue skips all code after its declaration, thats why if "x++" was after that
+        continue
     }
 
-    x++
+    console.log(x)
 }
 
 console.log("The loop ended")
