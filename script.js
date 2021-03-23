@@ -32,7 +32,7 @@ console.log("Start!")
 while(x <= 10) {
     x++
 
-    if(x == 5){
+    if(x==5 | x%2 == 0){
         //the continue skips all code after its declaration, thats why if "x++" was after that
         continue
     }
