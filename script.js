@@ -48,9 +48,9 @@
 
 // do while Structure
 
-let x = 11
+// let x = 11
 
-// the do while structure is simples, but the fundamental diference is that here the code inside it activates at least once, and after this the condition is checked to be valid or not
-do {
-    document.write(x + '<br />')
-} while(x <= 10)
+// // the do while structure is simples, but the fundamental diference is that here the code inside it activates at least once, and after this the condition is checked to be valid or not
+// do {
+//     document.write(x + '<br />')
+// } while(x <= 10)
