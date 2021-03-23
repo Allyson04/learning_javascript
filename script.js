@@ -1,3 +1,5 @@
+//While Structure
+
 // //defining value of variable x
 // x = 1
 
@@ -25,19 +27,19 @@
 
 // console.log("The loop ended")
 
-x = 1
+// x = 1
 
-console.log("Start!")
+// console.log("Start!")
 
-while(x <= 10) {
-    x++
+// while(x <= 10) {
+//     x++
 
-    if(x==5 | x%2 == 0){
-        //the continue skips all code after its declaration, thats why if "x++" was after that
-        continue
-    }
+//     if(x==5 | x%2 == 0){
+//         //the continue skips all code after its declaration, thats why if "x++" was after that
+//         continue
+//     }
 
-    console.log(x)
-}
+//     console.log(x)
+// }
 
-console.log("The loop ended")
+// console.log("The loop ended")
