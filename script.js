@@ -91,9 +91,9 @@ y = 0
 //     document.write(fruits[y] + "<br />")
 // }
 
-for(x=0;x<=10;x++) {
-    for(y=1;y<=10;y++) {
-        document.write(x + " x " + y + " = " + (x*y) + "<br />")
-    }
-    document.write("<hr />")
-}
+// for(x=0;x<=10;x++) {
+//     for(y=1;y<=10;y++) {
+//         document.write(x + " x " + y + " = " + (x*y) + "<br />")
+//     }
+//     document.write("<hr />")
+// }
