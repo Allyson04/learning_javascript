@@ -73,10 +73,16 @@ fruits[3] = "grape"
 
 y = 0
 
-while(y < fruits.length) {
-    //repetition or action
-    console.log(fruits[y])
+// while(y < fruits.length) {
+//     //repetition or action
+//     console.log(fruits[y])
 
-    //promise of a new loop
+//     //promise of a new loop
+//     y++
+// }
+
+do {
+    console.log(fruits[y])
     y++
-}
+
+} while(y < fruits.length)
