@@ -81,8 +81,12 @@ y = 0
 //     y++
 // }
 
-do {
-    console.log(fruits[y])
-    y++
+// do {
+//     console.log(fruits[y])
+//     y++
 
-} while(y < fruits.length)
+// } while(y < fruits.length)
+
+for(y=0;y<fruits.length;y++) {
+    document.write(fruits[y] + "<br />")
+}
