@@ -63,3 +63,20 @@
 // for (x=0; x<=10; x++) {
 //     document.write(x + '<br />')
 // }
+
+fruits = Array()
+
+fruits[0] = 'banana'
+fruits[1] = 'apple'
+fruits[2] = "strawberry"
+fruits[3] = "grape"
+
+y = 0
+
+while(y < fruits.length) {
+    //repetition or action
+    console.log(fruits[y])
+
+    //promise of a new loop
+    y++
+}
