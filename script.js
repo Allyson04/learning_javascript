@@ -87,6 +87,6 @@ y = 0
 
 // } while(y < fruits.length)
 
-for(y=0;y<fruits.length;y++) {
-    document.write(fruits[y] + "<br />")
-}
+// for(y=0;y<fruits.length;y++) {
+//     document.write(fruits[y] + "<br />")
+// }
