@@ -90,3 +90,10 @@ y = 0
 // for(y=0;y<fruits.length;y++) {
 //     document.write(fruits[y] + "<br />")
 // }
+
+for(x=0;x<=10;x++) {
+    for(y=1;y<=10;y++) {
+        document.write(x + " x " + y + " = " + (x*y) + "<br />")
+    }
+    document.write("<hr />")
+}
