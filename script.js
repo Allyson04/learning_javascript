@@ -60,6 +60,6 @@
 // for Structure
 
 //in this  structure we have variable, condition and control embed on the structure, this way, its more easy to manipulate
-for (x=0; x<=10; x++) {
-    document.write(x + '<br />')
-}
+// for (x=0; x<=10; x++) {
+//     document.write(x + '<br />')
+// }
