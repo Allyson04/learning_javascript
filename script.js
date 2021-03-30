@@ -126,3 +126,13 @@ inviteList = ['Jorge', 'Jamilton', 'José', 'Ana', 'Maria']
 
 //     //as we can see, we dont need to define the limit of the looping or how much it add (x++)
 // }
+
+console.log(inviteList)
+
+//as we can see here, forEach is a prototype function, it needs to be connected to an variable, and after that it creates an callback function with value (being the value in this position of array), the index and the array. all this can be named as other thing though
+
+inviteList.forEach(function(value, index, array) {
+    document.write("index: " + index + " | value: " + value + "<br />")
+})
+
+console.log(inviteList)
