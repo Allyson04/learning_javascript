@@ -159,3 +159,13 @@ console.log(inviteList)
 
 // console.log(inviteList)
 
+
+// the problem with forEach is that it doesnt shows elements with indexes different from number, for example:
+inviteList["ex"] = "Allyson"
+
+console.log("new")
+console.log(inviteList)
+
+inviteList.forEach(function(value) {
+    document.write(value + "<br />")
+})
