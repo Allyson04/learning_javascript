@@ -131,13 +131,18 @@ console.log(inviteList)
 
 //as we can see here, forEach is a prototype function, it needs to be connected to an variable, and after that it creates an callback function with value (being the value in this position of array), the index and the array. all this can be named as other thing though
 
-inviteList.forEach(function(value, index, array) {
-    document.write("index: " + index + " | value: " + value + "<br />")
+// inviteList.forEach(function(value, index, array) {
+//     document.write("index: " + index + " | value: " + value + "<br />")
     
-    //we can even use with ifs to add new values
-    if(value == "Jamilton") {
-        array[index] = "allyson"
-    }
+//     //we can even use with ifs to add new values
+//     if(value == "Jamilton") {
+//         array[index] = "allyson"
+//     }
+// })
+
+//we can use only one variable too, but if we use other, we need to use it in order "value, index, array"
+inviteList.forEach(function(value) {
+    document.write(value + "<br />")
 })
 
 console.log(inviteList)
