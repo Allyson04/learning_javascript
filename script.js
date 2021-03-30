@@ -145,4 +145,16 @@ inviteList.forEach(function(value) {
     document.write(value + "<br />")
 })
 
+//using callback functions and wrapper, we can even use the same function with other arrays
+
+newInviteList = ["Valadão", "Daniela", "Allyson", "Gláucio"]
+
+callBack = function(value) {
+    document.write(value + "<br />")
+}
+
+inviteList.forEach(callBack)
+document.write("<hr />")
+newInviteList.forEach(callBack)
+
 console.log(inviteList)
