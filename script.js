@@ -100,29 +100,29 @@ y = 0
 
 inviteList = ['Jorge', 'Jamilton', 'José', 'Ana', 'Maria']
 
-console.log(inviteList)
+// console.log(inviteList)
 
-//in is what separates the variable "x" from the variable we are using to search
-for(x in inviteList) {
-    document.write(inviteList[x] + "<br />")
+// //in is what separates the variable "x" from the variable we are using to search
+// for(x in inviteList) {
+//     document.write(inviteList[x] + "<br />")
 
-    //as we can see, we dont need to define the limit of the looping or how much it add (x++)
-}
+//     //as we can see, we dont need to define the limit of the looping or how much it add (x++)
+// }
 
-document.write("<hr />")
+// document.write("<hr />")
 
-// other advantage is that if we use other indexes in arrays, as we see on the other example, the for in loop uses a index it defines alone
+// // other advantage is that if we use other indexes in arrays, as we see on the other example, the for in loop uses a index it defines alone
 
-inviteList = Array()
+// inviteList = Array()
 
-inviteList[2] = "Jorge"
-inviteList[-1] = "Jamilton"
-inviteList[true] = "José"
-inviteList["zebra"] = "Ana"
-inviteList[2.1] = "Maria"
+// inviteList[2] = "Jorge"
+// inviteList[-1] = "Jamilton"
+// inviteList[true] = "José"
+// inviteList["zebra"] = "Ana"
+// inviteList[2.1] = "Maria"
 
-for(x in inviteList) {
-    document.write("index: " + x + "<br />" + "value: " + inviteList[x] + "<br />" + "<br />")
+// for(x in inviteList) {
+//     document.write("index: " + x + "<br />" + "value: " + inviteList[x] + "<br />" + "<br />")
 
-    //as we can see, we dont need to define the limit of the looping or how much it add (x++)
-}
+//     //as we can see, we dont need to define the limit of the looping or how much it add (x++)
+// }
