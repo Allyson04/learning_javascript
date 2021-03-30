@@ -133,6 +133,11 @@ console.log(inviteList)
 
 inviteList.forEach(function(value, index, array) {
     document.write("index: " + index + " | value: " + value + "<br />")
+    
+    //we can even use with ifs to add new values
+    if(value == "Jamilton") {
+        array[index] = "allyson"
+    }
 })
 
 console.log(inviteList)
