@@ -12,7 +12,13 @@ function getVideo() {
     //but only it isn't enough, now we need to define what to do, lets fix the problem with catch
     catch (error) {
         //we can see the problem message in parenthesis, the var inside it is the error message
-        console.log(error)
+        // console.log(error)
+
+        // instead of showing in console, we could send it  with a function
+        errorTreatment(error)
+
+        //how about putting a halt to all processing intentionatly?
+        throw new Error("Stopping the processing")
     }
     finally {
         //this only reactive to the problem, but doesn't fix it
@@ -24,3 +30,8 @@ function getVideo() {
 }
 
 getVideo()
+
+function errorTreatment(errorMessage) {
+    console.log("There was a problem, here it is:")
+    console.log(errorMessage)
+}
