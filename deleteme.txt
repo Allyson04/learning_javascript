@@ -1,0 +1,10 @@
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç AE3F-AFD8
+
+ Pasta de C:\javascript
+
+01/04/2021  22:34    <DIR>          .
+01/04/2021  22:34    <DIR>          ..
+01/04/2021  22:34                 0 deleteme.txt
+               1 arquivo(s)              0 bytes
+               2 pasta(s)   32.913.543.168 bytes dispon°veis
