@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) {
+    border: 10px ridge burlywood;
+}
+
+div:nth-child(2) {
+    border: 10px inset chartreuse;
+}
+
+div:nth-child(3) {
+    border: 10px dashed mediumturquoise;
+}
+
+div:nth-child(4) {
+    border: 10px double indigo;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.randomStyle1 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    background: radial-gradient(#ddd6f3, #faacaa)
+}
+
+.randomStyle2{
+    border-radius: 8% 50%;
+    -webkit-border-radius: 8% 50%;
+    -moz-border-radius: 8% 50%;
+    -ms-border-radius: 8% 50%;
+    -o-border-radius: 8% 50%;
+}
+
+.randomStyle3{
+    transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+.randomStyle4{
+    width: 100px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    -webkit-text-orientation: upright;
+    text-transform: uppercase;
+}

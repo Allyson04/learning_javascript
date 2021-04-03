@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Dom Manipulation</title>
+</head>
+<body>
+    <!--
+    <input type="text" placeholder="Characters" id="input_characters" name="input_for_characters" onkeyup="distributionOfCharacters()"> <br />
+    <input type="text" placeholder="Words" id="input_words" name="input_for_words" disabled="disabled"> <br />
+    <input type="text" placeholder="Numbers" id="input_numbers" name="input_for_numbers" disabled="disabled">
+    -->
+
+    <main>
+        <div onclick="changeStyle('Burlywood')" id="Burlywood">Burlywood</div>
+        <div onclick="changeStyle('Chartreuse')" id="Chartreuse">Chartreuse</div>
+        <div onclick="changeStyle('Mediumturquoise')" id="Mediumturquoise">Mediumturquoise</div>
+        <div onclick="changeStyle('Indigo')" id="Indigo">Indigo</div>
+    </main>
+
+    <button onclick="changeToDefault('Burlywood', 'Chartreuse', 'Mediumturquoise', 'Indigo')">Reset Colors</button>
+
+    <button onclick="changeClass()">Change Classes for Divs</button>
+
+</body>
+</html>
